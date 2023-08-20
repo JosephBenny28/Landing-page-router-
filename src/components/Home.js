@@ -28,7 +28,7 @@ function Carous() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item  >
-        <img src={caro1} alt="Carousel 1" />
+        <img src={caro4} alt="Carousel 1" />
         <Carousel.Caption >
           <div className='caro-inp'>
             <h1>Register to <span> DivineDestiny Adventures</span></h1>
@@ -40,6 +40,17 @@ function Carous() {
               <button>Register</button>
               <p className='py-2'>Have a great time!</p>
             </form>
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={caro1} alt="Carousel 1" />
+        <Carousel.Caption className='caro-cap'>
+        <div className='caro-wel '>
+            <h1>We help you to  <span>Explore  the World</span> </h1>
+            <p>Explore the world's most <span>breathtaking destinations</span>  with us.
+              Let your wanderlust guide you to unforgettable experiences and memories that last a lifetime.</p>
+            <Link className='btn' to='/contactus'>Contact Us</Link>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -62,12 +73,7 @@ function Carous() {
         </Carousel.Caption>
       </Carousel.Item>
       
-      <Carousel.Item>
-        <img src={caro4} alt="Carousel 1" />
-        <Carousel.Caption className='caro-cap'>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
+      
     </Carousel>
   );
 }

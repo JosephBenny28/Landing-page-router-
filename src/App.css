@@ -25,10 +25,7 @@ font-size: 18px;
 
  }
 
- .nav-items a:active {
-  text-decoration: underline;
-  background-color: rgb(67, 59, 44);
-}
+
 .nav-items{
   gap: 30px;
 }
@@ -144,7 +141,7 @@ input:active{
   height: 90vh;
   background-color: rgb(210, 156, 68);
   border-radius: 10px;
-  box-shadow: 1px 1px 10px black;
+  box-shadow: 1px 1px  5px black;
  
 }
 
@@ -168,7 +165,7 @@ input:active{
   height: 90vh;
   background-color: rgb(210, 156, 68);
   border-radius: 10px;
-  box-shadow: 1px 1px 10px black;
+  box-shadow: 1px 1px  5px black;
   
 }
 .about .col-img{
@@ -197,6 +194,8 @@ padding: 5px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
+  box-shadow: 1px 1px  5px black;
+
   align-items: center;
 }
 .contact {
